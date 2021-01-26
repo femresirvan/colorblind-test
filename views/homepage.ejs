@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="../public/css/btn.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Renk Körlüğü Testi</span>
+    </nav>
+    <div class="container pt-5">
+        <div class="row justify-content-md-center">
+            <div class="col-sm-5"><img src="../public/img/74.png" style="max-width: 100%;" alt="Responsive image"></div>
+            <div class="col-md-auto">
+                <div class="row justify-content-md-center pt-5">
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="1">1</button>
+                    </div>
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="2">2</button>
+                    </div>
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="3">3</button>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center pt-3">
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="4">4</button>
+                    </div>
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="5">5</button>
+                    </div>
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="6">6</button>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center pt-3">
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="7">7</button>
+                    </div>
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="8">8</button>
+                    </div>
+                    <div class="col"><button type="button" class="btn btn-outline-info btn-lg px-4" id="9">9</button>
+                    </div>
+                </div>
+                <div class="input-group py-5">
+                    <input type="text" class="form-control py-2" aria-label="Recipient's username"
+                        aria-describedby="basic-addon2" id="input">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary px-4" type="button" id="c">C</button>
+                        <button class="btn btn-outline-secondary px-4" type="button" id="submit">OK</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="successModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Bildiniz!</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="failureModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Yanlış Bildiniz Tekrar Deneyiniz...</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="../public/js/enterNumber.js"></script>
+</body>
+
+</html>
